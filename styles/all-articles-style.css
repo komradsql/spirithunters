@@ -1,0 +1,627 @@
+/* страница всех доступных к прочтению статей */
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+        url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.eot');
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),
+        url('../fonts/Gilroy-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff'),
+        url('../fonts/Gilroy-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-LightItalic.eot');
+    src: local('Gilroy Light Italic'), local('Gilroy-LightItalic'),
+        url('../fonts/Gilroy-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-LightItalic.woff') format('woff'),
+        url('../fonts/Gilroy-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ThinItalic.eot');
+    src: local('Gilroy Thin Italic'), local('Gilroy-ThinItalic'),
+        url('../fonts/Gilroy-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-ThinItalic.woff') format('woff'),
+        url('../fonts/Gilroy-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-BlackItalic.eot');
+    src: local('Gilroy Black Italic'), local('Gilroy-BlackItalic'),
+        url('Gilroy-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-BlackItalic.woff') format('woff'),
+        url('Gilroy-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-BoldItalic.eot');
+    src: local('Gilroy Bold Italic'), local('Gilroy-BoldItalic'),
+        url('../fonts/Gilroy-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-BoldItalic.woff') format('woff'),
+        url('../fonts/Gilroy-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.eot');
+    src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+        url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-UltraLightItalic.eot');
+    src: local('Gilroy UltraLight Italic'), local('Gilroy-UltraLightItalic'),
+        url('../fonts/Gilroy-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-UltraLightItalic.woff') format('woff'),
+        url('../fonts/Gilroy-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBoldItalic.eot');
+    src: local('Gilroy SemiBold Italic'), local('Gilroy-SemiBoldItalic'),
+        url('../fonts/Gilroy-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Gilroy-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.eot');
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+        url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Light.woff') format('woff'),
+        url('Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-MediumItalic.eot');
+    src: local('Gilroy Medium Italic'), local('Gilroy-MediumItalic'),
+        url('G../fonts/ilroy-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-MediumItalic.woff') format('woff'),
+        url('../fonts/Gilroy-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBoldItalic.eot');
+    src: local('Gilroy ExtraBold Italic'), local('Gilroy-ExtraBoldItalic'),
+        url('../fonts/Gilroy-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Gilroy-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-HeavyItalic.eot');
+    src: local('Gilroy Heavy Italic'), local('Gilroy-HeavyItalic'),
+        url('Gilroy-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-HeavyItalic.woff') format('woff'),
+        url('Gilroy-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-RegularItalic.eot');
+    src: local('Gilroy Regular Italic'), local('Gilroy-RegularItalic'),
+        url('../fonts/Gilroy-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-RegularItalic.woff') format('woff'),
+        url('../fonts/Gilroy-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-UltraLight.eot');
+    src: local('Gilroy UltraLight'), local('Gilroy-UltraLight'),
+        url('../fonts/Gilroy-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-UltraLight.woff') format('woff'),
+        url('../fonts/Gilroy-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Thin.eot');
+    src: local('Gilroy Thin'), local('Gilroy-Thin'),
+        url('../fonts/Gilroy-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Thin.woff') format('woff'),
+        url('../fonts/Gilroy-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Black.eot');
+    src: local('Gilroy Black'), local('Gilroy-Black'),
+        url('../fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Black.woff') format('woff'),
+        url('../fonts/Gilroy-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+svg path {fill: inherit}
+
+.all_articles_header {
+    width: 100%;
+    height: 87px;
+    background-color: #fff;
+    border-bottom: 1px solid #D3D3D3; }
+    .all_articles_header__nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 0 auto;
+      padding-top: 25px;
+      width: 70%;
+      height: 54px; }
+    .all_articles_header__nav-logo {
+      width: 90px;
+      height: 54px; }
+      .all_articles_header__nav-logo:hover, .all_articles_header__nav-logo:active, .all_articles_header__nav-logo:focus {
+        opacity: 0.75; }
+    .all_articles_header__nav-link {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 15px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #9B83A6; }
+      .all_articles_header__nav-link:not(:last-child) {
+        margin-right: 75px; }
+      .all_articles_header__nav-link:hover, .all_articles_header__nav-link:active, .all_articles_header__nav-link:focus {
+        text-shadow: 0 0 .65px #fff, 0 0 .65px #fff;
+        line-height: 16px;
+        color: black; }
+  
+  @media (max-width: 1024px) {
+    .all_articles_header__nav {
+      width: 97%; } }
+  @media (max-width: 768px) {
+    .all_articles_header__nav {
+      width: 97%; }
+      .all_articles_header__nav-links {
+        display: none; } }
+  /* @media (max-width: 320px) {
+      .header {
+      }
+  } */
+  .all_articles__out {
+    width: 100%;
+    background: #F8F8F9; }
+    .all_articles__out-main {
+      width: 70%;
+      margin: 0 auto;
+      padding-top: 60px; }
+      .all_articles__out-main-link {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 159.9%;
+        color: #939393; }
+        .all_articles__out-main-link:before {
+          content: url(../images/all_articles__arrow.png);
+          width: 60px;
+          height: 1px;
+          padding-right: 29px; }
+        .all_articles__out-main-link:hover, .all_articles__out-main-link:focus, .all_articles__out-main-link:active {
+          color: black; }
+  
+  @media (max-width: 1024px) {
+    .all_articles__out-main {
+      width: 97%; } }
+  @media (max-width: 768px) {
+    .all_articles__out-main {
+      width: 97%; } }
+  @media (max-width: 480px) {
+    .all_articles__out-main {
+      width: 97%;
+      margin-top: 0;
+      padding-top: 20px; }
+      .all_articles__out-main-link {
+        font-size: 15px; }
+        .all_articles__out-main-link:before {
+          content: url(../images/all_articles__arrow320.png);
+          width: 17px;
+          height: 1px;
+          padding-right: 14px; } }
+  @media (max-width: 320px) {
+    .all_articles__out-main {
+      width: 97%;
+      margin-top: 0;
+      padding-top: 20px; }
+      .all_articles__out-main-link {
+        font-size: 15px; }
+        .all_articles__out-main-link:before {
+          content: url(../images/all_articles__arrow320.png);
+          width: 17px;
+          height: 1px;
+          padding-right: 14px; } }
+  .articles__totally {
+    width: 100%;
+    background: #F8F8F9;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .articles__totally__main {
+      width: 70%;
+      margin: 0 auto;
+      position: relative; }
+      .articles__totally__main-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        .articles__totally__main-list-article {
+          width: 492px;
+          height: 412px;
+          background-color: white;
+          border: 1px solid #F5E0FF;
+          position: relative;
+          margin-top: 15px; }
+          .articles__totally__main-list-article-img {
+            width: 100%;
+            height: 140px; }
+          .articles__totally__main-list-article-title {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 139.9%;
+            color: #413348;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 20px; }
+          .articles__totally__main-list-article-text {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 159%;
+            color: #939393;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 12px; }
+      .articles__totally__main-carousel {
+        width: 443px;
+        margin: 0 auto;
+        margin-top: 65px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0.18em; }
+  
+  @media (max-width: 1024px) {
+    .articles__totally {
+      height: 1774px; }
+      .articles__totally__main {
+        width: 97%; } }
+  @media (max-width: 768px) {
+    .articles__totally {
+      height: 2103px; }
+      .articles__totally__main-list-article {
+        width: 365px;
+        height: 496px; }
+      .articles__totally__main-carousel {
+        margin-top: 40px;
+        font-size: 30px;
+        width: 100%; } }
+  @media (max-width: 480px) {
+    .articles__totally {
+      margin-top: 0;
+      height: 2955px; }
+      .articles__totally__main {
+        margin-top: 0; }
+        .articles__totally__main-list {
+          margin-top: 0; }
+          .articles__totally__main-list-article {
+            height: 346px;
+            width: 100%; }
+            .articles__totally__main-list-article-title {
+              font-size: 20px; }
+            .articles__totally__main-list-article-text {
+              font-size: 15px; }
+        .articles__totally__main-carousel {
+          text-align: center;
+          font-size: 27px;
+          margin-top: 100px; } }
+  @media (max-width: 414px) {
+    .articles__totally {
+      height: 3074px;
+    }
+  }
+  @media (max-width: 375px) {
+    .articles__totally {
+      height: 3603px;
+    }
+  }        
+  @media (max-width: 375px) {
+    .articles__totally__main-list-article {
+      height: 360px; } }
+  @media (max-width: 320px) {
+    .articles__totally {
+      margin-top: 0;
+      height: 3612px; }
+      .articles__totally__main {
+        margin-top: 0; }
+        .articles__totally__main-list {
+          margin-top: 0; }
+          .articles__totally__main-list-article {
+            height: 400px; }
+            .articles__totally__main-list-article-title {
+              font-size: 20px; }
+            .articles__totally__main-list-article-text {
+              font-size: 15px; }
+        .articles__totally__main-carousel {
+          text-align: center;
+          font-size: 27px; } }
+  .totally_footer {
+    width: 100%;
+    height: 222px;
+    background-color: #413348; }
+    .totally_footer__main {
+      width: 70%;
+      margin: 0 auto;
+      position: relative; }
+      .totally_footer__main-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding-top: 25px;
+        height: 54px; }
+        .totally_footer__main-nav-logo {
+          width: 90px;
+          height: 54px; }
+          .totally_footer__main-nav-logo:hover, .totally_footer__main-nav-logo:active, .totally_footer__main-nav-logo:focus {
+            opacity: 0.75; }
+        .totally_footer__main-nav-link {
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 15px;
+          letter-spacing: 0.18em;
+          text-transform: uppercase;
+          color: #939393; }
+          .totally_footer__main-nav-link:not(:last-child) {
+            margin-right: 75px; }
+          .totally_footer__main-nav-link:hover, .totally_footer__main-nav-link:active, .totally_footer__main-nav-link:focus {
+            text-shadow: 0 0 .65px #fff, 0 0 .65px #fff;
+            line-height: 16px;
+            color: #FFFFFF; }
+      .totally_footer__main-social {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 227px;
+        margin-top: 1%; }
+        .totally_footer__main-social-icon {
+          width: 16px;
+          height: 16px;
+          margin-right: 34px; }
+          .totally_footer__main-social-icon:hover, .totally_footer__main-social-icon:active, .totally_footer__main-social-icon:focus {
+            opacity: 0.75; }
+          .totally_footer__main-social-icon-yt {
+            width: 22.86px;
+            height: 16px;
+            margin-right: 0; }
+      .totally_footer__main-email {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 159%;
+        color: #E1D3E8;
+        padding-top: 55px; }
+      .totally_footer__main-info {
+        width: 242px;
+        height: 45px;
+        margin: 0 auto; }
+        .totally_footer__main-info-oferta {
+          display: block;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 159%;
+          text-align: center;
+          color: #A08FA8; }
+          .totally_footer__main-info-oferta:hover, .totally_footer__main-info-oferta:active, .totally_footer__main-info-oferta:focus {
+            opacity: 0.75; }
+        .totally_footer__main-info-copyright {
+          text-align: center;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 10px;
+          line-height: 159%;
+          color: #A08FA8; }
+  
+  @media (max-width: 1024px) {
+    .totally_footer__main {
+      width: 97%; }
+      .totally_footer__main-email {
+        padding-top: 50px; } }
+  @media (max-width: 768px) {
+    .totally_footer__main-nav {
+      padding-top: 35px; }
+      .totally_footer__main-nav-link:not(:last-child) {
+        margin-right: 25px; }
+    .totally_footer__main-email {
+      padding-top: 60px; } }
+  @media (max-width: 480px) {
+    .totally_footer {
+      height: 231px; }
+      .totally_footer__main-nav-links {
+        text-align: right;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 10%; }
+      .totally_footer__main-nav-link:not(:last-child) {
+        margin-right: 0; }
+      .totally_footer__main-email {
+        padding-top: 75px;
+        text-align: center; }
+      .totally_footer__main-social {
+        width: 224px;
+        margin: 0 auto;
+        margin-top: 2%; }
+      .totally_footer__main-info {
+        margin-top: 2%; } }
+  @media (max-width: 320px) {
+    .totally_footer {
+      height: 231px; }
+      .totally_footer__main-nav-links {
+        text-align: right;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 10%; }
+      .totally_footer__main-nav-link:not(:last-child) {
+        margin-right: 0; }
+      .totally_footer__main-email {
+        padding-top: 75px;
+        text-align: center; }
+      .totally_footer__main-social {
+        width: 224px;
+        margin: 0 auto;
+        margin-top: 2%; }
+      .totally_footer__main-info {
+        margin-top: 2%; } }
