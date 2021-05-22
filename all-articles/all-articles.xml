@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--created with www.maxim-m.ru-->
+ <rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/"
+ xmlns:turbo="http://turbo.yandex.ru" version="2.0">
+ <channel>
+ <turbo:cms_plugin>MaxImco Genarator</turbo:cms_plugin>
+ <title>Все статьи</title>
+ <link>https://spirithunters.io</link>
+ <description>Статьи об Осознанных сновидениях и шифтинге</description>
+ <language>ru</language>
+ <author>https://spirithunters.io</author>
+ <yandex:analytics type="Yandex" id="71638504"/>
+<item turbo="true">
+ <title>Все статьи</title><link>https://spirithunters.io/all-articles</link><category>Официальный сайт</category>
+ <description>Статьи об Осознанных сновидениях. Как применить осознанный сон. Мифы, правда и факты о сновидениях. Как попасть в осознанный сон самостоятельно новичку.</description>
+<turbo:content><![CDATA[<header><menu><a href='https://spirithunters.io'>Главная</a></menu></header>
+ <a href="http://spirithunters.ru"><img src="https://spirithunters.io/../images/allArticles__logo.png" ></a>
+ <a href="http://spirithunters.ru#headerMain">Главная</a>
+ <a href="http://spirithunters.ru#aboutMain">О нас</a>
+ <a href="http://spirithunters.ru#courseMain">Курсы</a>
+ <a href="http://spirithunters.ru#articlesMain">Статьи</a>
+ <a href="http://spirithunters.ru#contactsMain">Контакты</a>
+ 
+ <p>
+ <a href="http://spirithunters.ru#headerMain">Назад на главную</a>
+ </p>
+ <p>
+ <a href="http://spirithunters.ru/osoznannye-sny">
+ <img src="https://spirithunters.io/../images/os-img-top.png" >
+ <h2>Что такое осознанные сновидения и чем они полезны?</h2>
+ <p>ОС — сны, где вы понимаете, что спите, но можете делать всё, что захотите. Создавать новые миры, летать по городам и странам, осуществлять мечты и работать со своей психикой, всё это возможно в таких снах.</p>
+ </a>
+ <a href="http://spirithunters.ru/osoznannost">
+ <img src="https://spirithunters.io/../images/ososnannost-img-top.png" >
+ <h2>Осознанность и качество жизни</h2>
+ <p>Способность контролировать своё состояние, мысли и действия. Повышение осознания себя — это управление собой, что является важнейшей концепцией человеческого развития.</p>
+ </a>
+ <a href="http://spirithunters.ru/stalking">
+ <img src="https://spirithunters.io/../images/stalking-img-top.png" >
+ <h2>Апгрейд реальности</h2>
+ <p>Стратегия управления своим поведением в социуме. Позволяет улучшить эффективность взаимодействий с людьми в повседневной жизни. Любой поступок «сталкера» исходит из его стратегии, а не мимолётной эмоции.</p>
+ </a>
+ </p>
+ <p>
+ <a href="http://spirithunters.ru"><img src="https://spirithunters.io/../images/footer__logo.png" ></a>
+ <a href="http://spirithunters.ru#headerMain">Главная</a>
+ <a href="http://spirithunters.ru#aboutMain">О нас</a>
+ <a href="http://spirithunters.ru#courseMain">Курсы</a>
+ <a href="http://spirithunters.ru#articlesMain">Статьи</a>
+ <a href="http://spirithunters.ru#contactsMain">Контакты</a>
+ <p>velmir@spirithunters.io</p>
+ <a href="https://t.me/spirithunters"><img src="https://spirithunters.io/../images/header__logo-tg.png" ></a>
+ <a href="https://www.facebook.com/profile.php?id=100057101870700"><img src="https://spirithunters.io/../images/header__logo-fb.png" ></a>
+ <a href="https://vk.com/spirithunters"><img src="https://spirithunters.io/../images/header__logo-vk.png" ></a>
+ <a href="https://zen.yandex.ru/id/5a8591a1fd96b16db42f830e"><img src="https://spirithunters.io/../images/header__logo-dz.png" ></a>
+ <a href="https://www.instagram.com/spirit_hunters_xos/"><img src="https://spirithunters.io/../images/header__logo-yt.png" ></a>
+ <a href="http://spirithunters.ru/oferta">Договор на оказание услуг</a>
+ <p>&copy; 2020, Искатели Духа. Все права защищены</p>
+ </p>
+ <p>Страница сгенерирована с помощью <a href="https://www.maxim-m.ru/tools/y-turbo">сервиса Maxim-M</a></p><p>Контактные данные<br>Сайт разработчика:<a href="https://www.maxim-m.ru/tools/y-turbo">maxim-m.ru</a></p>
+ <div data-block="widget-feedback" data-stick="false">
+ <div data-block="chat" data-type="vkontakte" data-url="https://vk.com/islandgift"></div> <div data-block="chat" data-type="whatsapp" data-url="https://api.whatsapp.com/send?phone=79092813520"></div>
+ <div data-block="chat" data-type="telegram" data-url="http://t.me/max36895"></div>
+ <div data-block="chat" data-type="facebook" data-url="https://www.facebook.com/groups/islandgift"></div>
+ <div data-block="chat" data-type="viber" data-url="viber://chat?number=79092813520"></div>
+ <div data-block="chat" data-type="google" data-url="http://plus.google.com/communities/118237901655250343991"></div>
+ <div data-block="chat" data-type="twitter" data-url="https://twitter.com/strelocmax36895"></div> </div>
+ ]]></turbo:content></item></channel></rss>
