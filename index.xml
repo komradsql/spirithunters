@@ -1,0 +1,499 @@
+line 58 column 21 - Warning: <a> anchor "burger__menu" already defined
+line 59 column 21 - Warning: <a> anchor "burger__menu" already defined
+line 60 column 21 - Warning: <a> anchor "burger__menu" already defined
+line 61 column 21 - Warning: <a> anchor "burger__menu" already defined
+line 62 column 21 - Warning: <a> anchor "burger__menu" already defined
+line 53 column 13 - Warning: trimming empty <span>
+line 52 column 13 - Warning: trimming empty <label>
+line 117 column 21 - Warning: <svg> proprietary attribute "fill"
+line 126 column 21 - Warning: <svg> proprietary attribute "fill"
+line 135 column 21 - Warning: <svg> proprietary attribute "fill"
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Linux version 5.2.0" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async="async" src=
+"https://www.googletagmanager.com/gtag/js?id=G-VJKBNGC845">
+</script>
+<script>
+<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VJKBNGC845');
+]]>
+</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content=
+"width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href=
+"images/favicon/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href=
+"images/favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href=
+"images/favicon/favicon-16x16.png" />
+<link rel="manifest" href="images/favicon/site.webmanifest" />
+<link rel="shortcut icon" href="images/favicon/favicon.ico" />
+<meta name="msapplication-TileColor" content="#da532c" />
+<meta name="msapplication-config" content=
+"images/favicon/browserconfig.xml" />
+<meta name="theme-color" content="#ffffff" />
+<link rel="stylesheet" href="./styles/normalize.css" />
+<link rel="stylesheet" href="./styles/style.css" />
+<link rel="icon" href="https://spirithunters.io/favicon.ico" type=
+"image/x-icon" />
+<title>Искатели духа</title>
+<meta name="description" content=
+"Что такое осознанные сновидения и шифтинг? Техники и методы для начинающих. Рабочие методы шифтинга и осознанных снов. Астрал, ОС, lucid dream — мифы и правда." />
+<!-- Yandex.Metrika counter -->
+
+<script type="text/javascript">
+//<![CDATA[
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    ym(71638504, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true,
+    webvisor:true
+    });
+//]]>
+</script><noscript>
+<div><img src="https://mc.yandex.ru/watch/71638504" style=
+"position:absolute; left:-9999px;" alt="" /></div>
+</noscript><!-- /Yandex.Metrika counter -->
+<meta property="og:title" content=
+"Искатели духа | Осознанные сновидения, повышение осознанности, сталкинг, путь к себе" />
+<meta property="og:description" content=
+"Искатели духа | Осознанные сновидения, повышение осознанности, сталкинг, путь к себе" />
+<meta property="og:image" content="./images/main__pic.png" />
+<meta property="og:url" content="https://spirithunters.io/" />
+</head>
+<body>
+<header class="header" id="headerMain">
+<div class="hamburger-menu"><input id="menu__toggle" type=
+"checkbox" />
+<div class="overlay" id="overlay__id"></div>
+<ul class="menu__box" id="burger_id">
+<li><a class="menu__item" href="#headerMain" id=
+"burger__menu">Главная</a></li>
+<li><a class="menu__item" href="#aboutMain" id="burger__menu">О
+нас</a></li>
+<li><a class="menu__item" href="#courseMain" id=
+"burger__menu">Курсы</a></li>
+<li><a class="menu__item" href="#articlesMain" id=
+"burger__menu">Статьи</a></li>
+<li><a class="menu__item" href="https://spirithunters.io/reviews"
+id="burger__menu">Отзывы</a></li>
+<li><a class="menu__item" href="#contactsMain" id=
+"burger__menu">Контакты</a></li>
+</ul>
+</div>
+<div class="header__nav"><a href="#headerMain" class=
+"js-scroll"><img src="./images/header__logo.png" alt=
+"Искатели Духа" class="header__nav-logo js-scroll" /></a>
+<div class="header__nav-links"><a href="#headerMain" class=
+"header__nav-link js-scroll">Главная</a> <a href="#aboutMain"
+class="header__nav-link js-scroll">О нас</a> <a href="#courseMain"
+class="header__nav-link js-scroll">Курсы</a> <a href=
+"#articlesMain" class="header__nav-link js-scroll">Статьи</a>
+<a href="https://spirithunters.io/reviews" class=
+"header__nav-link js-scroll">Отзывы</a> <a href="#contactsMain"
+class="header__nav-link js-scroll">Контакты</a></div>
+</div>
+<div class="header__main">
+<h1 class="header__main-title">Осознанные сновидения</h1>
+<p class="header__main-description">Качественная работа над собой,
+работа с внутренней энергией, управлением снами и погружением в то,
+как работает мир вокруг нас, и как это можно использовать для своих
+целей. Мы делимся знаниями и предоставляем возможность увидеть
+направления, в которых можно работать с этими знаниями.</p>
+<a href="#aboutMain" class=
+"header__nav-link js-scroll"><button class=
+"header__main-btn">Узнать больше</button></a></div>
+<div class="header__social"><a href="https://t.me/spirithunters"
+target="_blank"><img src="./images/header__logo-tg.png" alt=
+"Telegram" class="header__social-icon" /></a> <a href=
+"https://www.facebook.com/profile.php?id=100057101870700" target=
+"_blank"><img src="./images/header__logo-fb.png" alt="Facebook"
+class="header__social-icon" /></a> <a href=
+"https://vk.com/spirithunters" target="_blank"><img src=
+"./images/header__logo-vk.png" alt="Vkontakte" class=
+"header__social-icon" /></a> <a href=
+"https://zen.yandex.ru/id/5a8591a1fd96b16db42f830e" target=
+"_blank"><img src="./images/header__logo-dz.png" alt="Yandex.Dzen"
+class="header__social-icon" /></a> <a href=
+"https://www.instagram.com/spirithunters_xos/" target=
+"_blank"><img src="./images/header__logo-yt.png" alt="instagram"
+class="header__social-icon header__social-icon-last" /></a></div>
+</header>
+<section class="about" id="aboutMain">
+<div class="about__main">
+<div class="about__text">
+<h3 class="about__text-title">Кто мы</h3>
+<p class="about__text-description">«Искатели Духа» — группа
+исследователей непознанного. Мы пытаемся разобраться в архитектуре
+этого мира и расшифровать его законы. Используем методы
+современного поколения, которое привыкло к конкретике, а не к
+философии и воде интертрепаторов мистиков. Наша главная цель —
+войти в этот мир без оглядки на авторитетных дядь и их книги. Мы
+выбрали свой путь и идем по нему, и это дает результаты.</p>
+<p class="about__text-description">Наш подход, — это не про
+мгновенный результат, не про обещание эфемерной «вечной жизни» и
+открытия в себе чакр. Наша цель — качественная работа над собой,
+управлением снами и погружением в то, как работает мир вокруг нас и
+как это можно использовать для своих целей.</p>
+<p class="about__text-description">Мы делимся знаниями и
+предоставляем возможность увидеть направления, в которых можно
+работать с этими знаниями. Они универсальны и подойдут для всех
+аспектов жизни.</p>
+</div>
+<div class="about__images"><img src="./images/about__img1.svg" alt=
+"sky" class="about__images-pic-left" /> <img src=
+"./images/about__img2.png" alt="sky" class=
+"about__images-pic-right" /></div>
+</div>
+</section>
+<section class="directions">
+<div class="directions__main">
+<div class="directions__quote">
+<div class="directions__quote-main">
+<p class="directions__quote-main-text">Для тех, кто свободен в
+своих стремлениях</p>
+</div>
+</div>
+<h3 class="directions__main-title">Направления деятельности</h3>
+<div class="directions__activities"><a href=
+"https://spirithunters.io/osoznannye-sny">
+<div class="directions__activities-block"><svg width="64" height=
+"64" viewbox="0 0 64 64" fill="#413348" xmlns=
+"http://www.w3.org/2000/svg" class="directions__activities-img">
+<path d=
+"M62.7416 30.782C62.6508 30.5773 60.4598 25.7168 55.6215 20.878C49.1588 14.4145 40.9905 10.998 32 10.998C23.0095 10.998 14.8413 14.4145 8.37879 20.878C3.54029 25.7168 1.34929 30.5773 1.25879 30.782C1.08832 31.1656 1.00024 31.5807 1.00024 32.0004C1.00024 32.4202 1.08832 32.8352 1.25879 33.2188C1.34954 33.4233 3.54054 38.2828 8.37879 43.1205C14.8415 49.5828 23.0095 52.998 32 52.998C40.9905 52.998 49.1585 49.5828 55.621 43.1205C60.4595 38.283 62.6506 33.4233 62.7416 33.2188C62.912 32.8352 63.0001 32.4202 63.0001 32.0004C63.0001 31.5807 62.912 31.1656 62.7416 30.782ZM51.2285 39.027C45.8665 44.3163 39.397 46.9983 32 46.9983C24.603 46.9983 18.1335 44.3163 12.7715 39.027C10.663 36.9408 8.84877 34.5768 7.37904 32.0003C8.84866 29.423 10.6629 27.0581 12.7715 24.971C18.1343 19.6805 24.6033 16.9983 32 16.9983C39.3968 16.9983 45.8663 19.6808 51.2283 24.971C53.3369 27.058 55.1511 29.4227 56.6208 31.9998C55.1513 34.5765 53.3371 36.9407 51.2285 39.027ZM32 19.0005C29.4289 19.0005 26.9155 19.763 24.7776 21.1914C22.6398 22.6199 20.9736 24.6502 19.9896 27.0257C19.0057 29.4011 18.7482 32.015 19.2498 34.5367C19.7514 37.0585 20.9896 39.3749 22.8077 41.1929C24.6257 43.011 26.9421 44.2491 29.4639 44.7508C31.9856 45.2524 34.5995 44.9949 36.9749 44.011C39.3504 43.027 41.3807 41.3608 42.8092 39.223C44.2376 37.0851 45 34.5717 45 32.0005C44.9961 28.5539 43.6253 25.2496 41.1881 22.8125C38.751 20.3753 35.4467 19.0045 32 19.0005ZM32 39.0005C30.6156 39.0005 29.2622 38.59 28.1111 37.8208C26.9599 37.0517 26.0627 35.9584 25.5329 34.6793C25.0031 33.4002 24.8645 31.9928 25.1345 30.6349C25.4046 29.277 26.0713 28.0298 27.0503 27.0508C28.0293 26.0718 29.2765 25.4051 30.6344 25.135C31.9923 24.865 33.3997 25.0036 34.6788 25.5334C35.9579 26.0632 37.0512 26.9604 37.8203 28.1116C38.5895 29.2627 39 30.6161 39 32.0005C38.998 33.8564 38.2598 35.6357 36.9475 36.948C35.6352 38.2603 33.8559 38.9985 32 39.0005Z"
+fill="#413348"></path>
+</svg>
+<p class="directions__activities-text">Осознанные сновидения</p>
+<p class="directions__activities-text-desc">ОС — сны, где вы
+понимаете, что спите, но можете делать всё, что захотите. Создавать
+новые миры, летать по городам и странам, осуществлять мечты и
+работать со своей психикой, всё это возможно в таких снах.</p>
+</div>
+</a> <a href="https://spirithunters.io/upgrade">
+<div class="directions__activities-block"><svg width="64" height=
+"64" viewbox="0 0 64 64" fill="#413348" xmlns=
+"http://www.w3.org/2000/svg" class="directions__activities-img">
+<path d=
+"M51.0809 37.7476C49.821 36.4876 47.6667 37.38 47.6667 39.1618V51C47.6667 52.1046 46.7712 53 45.6667 53H12.3333C11.2288 53 10.3333 52.1046 10.3333 51V17.6667C10.3333 16.5621 11.2288 15.6667 12.3333 15.6667H21.8559C22.9059 15.6667 23.7643 14.8509 23.9555 13.8184C23.9943 13.6086 24.037 13.4004 24.0836 13.1937C24.3974 11.7994 23.4217 10.3333 21.9925 10.3333H10.3333C7.4 10.3333 5 12.7333 5 15.6667V53C5 55.9333 7.4 58.3333 10.3333 58.3333H47.6667C50.6 58.3333 53 55.9333 53 53V40.4951C53 39.9647 52.7893 39.456 52.4142 39.0809L51.0809 37.7476ZM41.2603 44.465C42.2511 45.7833 41.3106 47.6667 39.6616 47.6667H18.4267C16.7617 47.6667 15.8257 45.751 16.8489 44.4375L20.1388 40.2146C20.9237 39.207 22.4391 39.1834 23.2551 40.1659L25.3027 42.6314C26.1194 43.6148 27.6364 43.5901 28.4207 42.5805L32.621 37.1736C33.4298 36.1325 35.0071 36.145 35.7992 37.1989L41.2603 44.465ZM52.265 24.5014C51.6032 23.8417 51.5033 22.8184 51.8966 21.9708C52.6012 20.4523 53 18.7798 53 17C53 10.36 47.64 5 41 5C34.36 5 29 10.36 29 17C29 23.64 34.36 29 40.9733 29C42.7469 29 44.429 28.604 45.9392 27.904C46.7903 27.5096 47.8189 27.6055 48.4822 28.2689L54.2525 34.0391C55.0335 34.8202 56.2998 34.8202 57.0809 34.0391L58.0368 33.0832C58.8188 32.3012 58.8178 31.0331 58.0346 30.2525L52.265 24.5014ZM41 23.6667C39.2319 23.6667 37.5362 22.9643 36.286 21.714C35.0357 20.4638 34.3333 18.7681 34.3333 17C34.3333 15.2319 35.0357 13.5362 36.286 12.286C37.5362 11.0357 39.2319 10.3333 41 10.3333C42.7681 10.3333 44.4638 11.0357 45.714 12.286C46.9643 13.5362 47.6667 15.2319 47.6667 17C47.6667 18.7681 46.9643 20.4638 45.714 21.714C44.4638 22.9643 42.7681 23.6667 41 23.6667Z"
+fill="#413348"></path>
+</svg>
+<p class="directions__activities-text">Апгрейд реальности</p>
+<p class="directions__activities-text-desc">Стратегия управления
+своим поведением в социуме. Позволяет улучшить эффективность
+взаимодействий с людьми в повседневной жизни. Любой поступок
+«сталкера» исходит из его стратегии, а не мимолётной эмоции.</p>
+</div>
+</a> <a href="https://spirithunters.io/osoznannost">
+<div class=
+"directions__activities-block directions__activities-block-odd">
+<svg width="64" height="64" viewbox="0 0 64 64" fill="#413348"
+xmlns="http://www.w3.org/2000/svg" class=
+"directions__activities-img">
+<path d=
+"M58.6667 29.3332C58.6742 27.4536 58.1848 25.6054 57.2483 23.9758C56.3117 22.3461 54.9612 20.9929 53.3334 20.0532C53.3735 19.5918 53.3735 19.1278 53.3334 18.6665C53.3334 16.5448 52.4905 14.5099 50.9902 13.0096C49.4899 11.5093 47.4551 10.6665 45.3334 10.6665H44.8534C44.4093 9.43532 43.6699 8.33191 42.7001 7.45301C41.7303 6.57412 40.5597 5.94658 39.2909 5.62543C38.0221 5.30428 36.6939 5.29934 35.4228 5.61102C34.1516 5.92271 32.9764 6.54151 32 7.41315C31.0237 6.54151 29.8485 5.92271 28.5773 5.61102C27.3062 5.29934 25.9779 5.30428 24.7092 5.62543C23.4404 5.94658 22.2697 6.57412 21.2999 7.45301C20.3301 8.33191 19.5908 9.43532 19.1467 10.6665H18.6667C16.545 10.6665 14.5101 11.5093 13.0099 13.0096C11.5096 14.5099 10.6667 16.5448 10.6667 18.6665C10.6266 19.1278 10.6266 19.5918 10.6667 20.0532C9.15327 20.9086 7.87186 22.121 6.93401 23.5848C5.99617 25.0486 5.43033 26.7195 5.28574 28.4519C5.14115 30.1844 5.42219 31.9259 6.10441 33.5249C6.78663 35.124 7.84934 36.532 9.20004 37.6265C8.3261 39.2565 7.89101 41.0858 7.93749 42.9348C7.98397 44.7837 8.51042 46.5888 9.46517 48.1729C10.4199 49.757 11.7701 51.0656 13.3833 51.9702C14.9965 52.8749 16.8172 53.3446 18.6667 53.3332H19.1467C19.5908 54.5643 20.3301 55.6677 21.2999 56.5466C22.2697 57.4255 23.4404 58.0531 24.7092 58.3742C25.9779 58.6954 27.3062 58.7003 28.5773 58.3886C29.8485 58.0769 31.0237 57.4581 32 56.5865C32.9764 57.4581 34.1516 58.0769 35.4228 58.3886C36.6939 58.7003 38.0221 58.6954 39.2909 58.3742C40.5597 58.0531 41.7303 57.4255 42.7001 56.5466C43.6699 55.6677 44.4093 54.5643 44.8534 53.3332H45.3334C47.1716 53.3215 48.9756 52.8351 50.5704 51.9209C52.1653 51.0068 53.4968 49.696 54.4358 48.1157C55.3749 46.5354 55.8896 44.7392 55.93 42.9014C55.9705 41.0636 55.5353 39.2466 54.6667 37.6265C55.9105 36.6306 56.9154 35.3688 57.6076 33.9336C58.2998 32.4985 58.6617 30.9265 58.6667 29.3332ZM29.3334 22.7998C28.7526 22.4676 28.1462 22.1823 27.52 21.9465C26.8482 21.7202 26.1139 21.77 25.4788 22.0851C24.8436 22.4001 24.3597 22.9546 24.1334 23.6265C23.9071 24.2984 23.9569 25.0326 24.272 25.6678C24.587 26.3029 25.1415 26.7868 25.8134 27.0132C26.8399 27.3843 27.7278 28.0614 28.3573 28.9531C28.9867 29.8449 29.3274 30.9083 29.3334 31.9998V36.1332C28.7526 35.801 28.1462 35.5156 27.52 35.2798C26.8482 35.0535 26.1139 35.1034 25.4788 35.4184C24.8436 35.7335 24.3597 36.2879 24.1334 36.9598C23.9071 37.6317 23.9569 38.366 24.272 39.0011C24.587 39.6362 25.1415 40.1202 25.8134 40.3465C26.8399 40.7176 27.7278 41.3947 28.3573 42.2865C28.9867 43.1782 29.3274 44.2416 29.3334 45.3332V50.6665C29.3334 51.3737 29.0524 52.052 28.5523 52.5521C28.0522 53.0522 27.374 53.3332 26.6667 53.3332C26.1508 53.3298 25.6469 53.1768 25.2162 52.8928C24.7855 52.6088 24.4464 52.206 24.24 51.7332C24.6872 51.4708 25.1149 51.1767 25.52 50.8532C25.7897 50.629 26.0126 50.354 26.1759 50.0437C26.3393 49.7335 26.4399 49.3941 26.4721 49.045C26.5043 48.6958 26.4674 48.3437 26.3635 48.0088C26.2596 47.674 26.0908 47.3628 25.8667 47.0932C25.6426 46.8235 25.3675 46.6006 25.0573 46.4373C24.747 46.2739 24.4076 46.1733 24.0585 46.1411C23.7094 46.1089 23.3573 46.1458 23.0224 46.2497C22.6875 46.3535 22.3764 46.5224 22.1067 46.7465C21.1439 47.5571 19.9253 48.001 18.6667 47.9998C17.2522 47.9998 15.8957 47.4379 14.8955 46.4377C13.8953 45.4375 13.3334 44.081 13.3334 42.6665C13.3461 41.6627 13.6419 40.683 14.1867 39.8398C14.7852 39.9472 15.392 40.0007 16 39.9998C16.7073 39.9998 17.3856 39.7189 17.8857 39.2188C18.3858 38.7187 18.6667 38.0404 18.6667 37.3332C18.6667 36.6259 18.3858 35.9476 17.8857 35.4475C17.3856 34.9474 16.7073 34.6665 16 34.6665C15.3701 34.6701 14.7454 34.5524 14.16 34.3198C13.201 33.9739 12.3611 33.3604 11.74 32.5518C11.1189 31.7433 10.7426 30.7737 10.6556 29.7579C10.5686 28.742 10.7746 27.7225 11.2492 26.8202C11.7238 25.9178 12.4471 25.1704 13.3334 24.6665C13.7123 25.0151 14.123 25.3276 14.56 25.5998C15.1753 25.9534 15.9059 26.0482 16.5911 25.8631C17.2762 25.6781 17.8597 25.2285 18.2134 24.6132C18.567 23.9979 18.6617 23.2673 18.4767 22.5821C18.2916 21.897 17.842 21.3134 17.2267 20.9598C16.8513 20.7527 16.5382 20.4489 16.32 20.0798C16.0735 19.6517 15.962 19.1591 16 18.6665C16 17.9592 16.281 17.281 16.7811 16.7809C17.2812 16.2808 17.9595 15.9998 18.6667 15.9998C18.8525 15.9739 19.0409 15.9739 19.2267 15.9998C19.3679 16.4283 19.5371 16.847 19.7334 17.2532C19.9076 17.5587 20.1405 17.8268 20.4188 18.042C20.697 18.2571 21.0151 18.4151 21.3547 18.5068C21.6943 18.5985 22.0486 18.6221 22.3974 18.5763C22.7461 18.5305 23.0823 18.4161 23.3867 18.2398C23.9779 17.8841 24.4082 17.3131 24.5873 16.6467C24.7663 15.9804 24.6801 15.2706 24.3467 14.6665C24.123 14.2574 24.0039 13.7994 24 13.3332C24 12.6259 24.281 11.9476 24.7811 11.4475C25.2812 10.9474 25.9595 10.6665 26.6667 10.6665C27.374 10.6665 28.0522 10.9474 28.5523 11.4475C29.0524 11.9476 29.3334 12.6259 29.3334 13.3332V22.7998ZM49.84 34.3198C49.2546 34.5524 48.6299 34.6701 48 34.6665C47.2928 34.6665 46.6145 34.9474 46.1144 35.4475C45.6143 35.9476 45.3334 36.6259 45.3334 37.3332C45.3334 38.0404 45.6143 38.7187 46.1144 39.2188C46.6145 39.7189 47.2928 39.9998 48 39.9998C48.608 40.0007 49.2149 39.9472 49.8134 39.8398C50.3582 40.683 50.6539 41.6627 50.6667 42.6665C50.6667 44.081 50.1048 45.4375 49.1046 46.4377C48.1044 47.4379 46.7479 47.9998 45.3334 47.9998C44.0747 48.001 42.8562 47.5571 41.8934 46.7465C41.3488 46.2939 40.6467 46.0761 39.9416 46.1411C39.2364 46.2061 38.586 46.5486 38.1334 47.0932C37.6807 47.6377 37.463 48.3398 37.528 49.045C37.593 49.7501 37.9355 50.4005 38.48 50.8532C38.8851 51.1767 39.3129 51.4708 39.76 51.7332C39.5537 52.206 39.2146 52.6088 38.7839 52.8928C38.3531 53.1768 37.8493 53.3298 37.3334 53.3332C36.6261 53.3332 35.9479 53.0522 35.4478 52.5521C34.9477 52.052 34.6667 51.3737 34.6667 50.6665V45.3332C34.6726 44.2416 35.0133 43.1782 35.6428 42.2865C36.2723 41.3947 37.1602 40.7176 38.1867 40.3465C38.8586 40.1202 39.413 39.6362 39.7281 39.0011C40.0432 38.366 40.093 37.6317 39.8667 36.9598C39.6404 36.2879 39.1564 35.7335 38.5213 35.4184C37.8862 35.1034 37.1519 35.0535 36.48 35.2798C35.8539 35.5156 35.2475 35.801 34.6667 36.1332V31.9998C34.6726 30.9083 35.0133 29.8449 35.6428 28.9531C36.2723 28.0614 37.1602 27.3843 38.1867 27.0132C38.5194 26.9011 38.8267 26.7246 39.0912 26.4938C39.3557 26.2629 39.5721 25.9822 39.7281 25.6678C39.8841 25.3533 39.9766 25.0112 40.0004 24.6609C40.0242 24.3107 39.9788 23.9592 39.8667 23.6265C39.7546 23.2938 39.5782 22.9865 39.3473 22.722C39.1165 22.4575 38.8358 22.2411 38.5213 22.0851C38.2068 21.9291 37.8647 21.8365 37.5145 21.8128C37.1642 21.789 36.8127 21.8344 36.48 21.9465C35.8539 22.1823 35.2475 22.4676 34.6667 22.7998V13.3332C34.6667 12.6259 34.9477 11.9476 35.4478 11.4475C35.9479 10.9474 36.6261 10.6665 37.3334 10.6665C38.0406 10.6665 38.7189 10.9474 39.219 11.4475C39.7191 11.9476 40 12.6259 40 13.3332C39.9962 13.7994 39.8771 14.2574 39.6534 14.6665C39.476 14.9693 39.36 15.3041 39.3123 15.6517C39.2645 15.9994 39.2858 16.353 39.375 16.6924C39.4642 17.0318 39.6195 17.3503 39.832 17.6296C40.0445 17.9088 40.31 18.1434 40.6134 18.3198C40.9177 18.4961 41.254 18.6105 41.6027 18.6563C41.9514 18.7021 42.3058 18.6785 42.6454 18.5868C42.985 18.4951 43.303 18.3371 43.5813 18.122C43.8596 17.9068 44.0925 17.6387 44.2667 17.3332C44.4663 16.901 44.6356 16.4555 44.7734 15.9998C44.9591 15.9739 45.1476 15.9739 45.3334 15.9998C46.0406 15.9998 46.7189 16.2808 47.219 16.7809C47.7191 17.281 48 17.9592 48 18.6665C47.996 19.1892 47.8383 19.6993 47.5467 20.1332C47.3286 20.4792 47.0257 20.7638 46.6667 20.9598C46.0514 21.3134 45.6018 21.897 45.4167 22.5821C45.2317 23.2673 45.3264 23.9979 45.68 24.6132C46.0337 25.2285 46.6172 25.6781 47.3024 25.8631C47.9875 26.0482 48.7181 25.9534 49.3334 25.5998C49.8122 25.3409 50.2595 25.0277 50.6667 24.6665C51.556 25.1615 52.2851 25.9007 52.7679 26.7967C53.2507 27.6927 53.4671 28.7082 53.3913 29.7232C53.3156 30.7382 52.9511 31.7104 52.3407 32.5249C51.7303 33.3394 50.8996 33.9622 49.9467 34.3198H49.84Z"
+fill="#413348"></path>
+</svg>
+<p class="directions__activities-text">Повышение осознанности</p>
+<p class="directions__activities-text-desc">Способность
+контролировать своё состояние, мысли и действия. Повышение
+осознания себя — это управление собой, что является важнейшей
+концепцией человеческого развития.</p>
+</div>
+</a></div>
+</div>
+</section>
+<section class="velmir">
+<div class="velmir__bg">
+<div class="velmir__title">
+<h3 class="velmir__title-text">Привет, меня зовут Вельмир</h3>
+</div>
+</div>
+<div class="velmir__main">
+<div class="velmir__main-bg"></div>
+<div class="velmir__main-text">
+<p>Я основатель этого сайта и представитель группы «Искатели Духа».
+Первый раз я осознался во сне в 12 лет, но не придал этому
+особенного значения, ведь тему осознанных сновидений избегают в
+нашем обществе. В 14 лет меня стала поглощать тема эзотерики и
+оккультизма. За время моего пути меня посвящали в разные ордены,
+направления и школы, я слушал советы всяких «Гуру» и
+«Учителей».</p>
+<p class="velmir__main-text-second">Этот период длился более 5 лет.
+В большинстве случаев, увы, я тратил время впустую, но вместе с
+этим и собирал багаж знаний и опыта. Научился отсеивать информацию:
+видеть псевдоучителей, определять направления в оккультизме, в
+которых делался упор на сектантство или бизнес. В целом, в то время
+я мечтал познать тайны мироздания, творить настоящую магию и
+попросту открыть занавес других миров.</p>
+</div>
+<img src="./images/velmir__space-photo.png" alt="Velmir" class=
+"velmir__main-mainphoto" /></div>
+<div class="velmir__quotes">
+<div class="velmir__main-quote">
+<p class="velmir__main-quote-text">Моя цель — не дать вам волшебную
+палочку, которая по щелчку пальца сделает вас успешным и богатым.
+Моя цель — помочь вам осознать и увидеть новые грани восприятия
+социума и дать шанс перешагнуть за грань обыденного мира.</p>
+</div>
+</div>
+<div class="velmir__space">
+<div class="velmir__space-opacity">
+<p class="velmir__space-opacity-text">В 19 лет я узнал, что можно
+управлять реальностью через осознанные сновидения и сталкинг. Тогда
+я перешёл от теории к практике — применял рациональное и
+критическое мышление во всех сферах своей жизни. Во мне долго зрела
+идея учить качественным и практичным вещам других, ибо мне есть,
+что вам рассказать. У меня было много разных групп, которые я
+обучал, проводил личные обучения и занимался ментерством. 3 года
+назад я собрал людей с общими интересами, так и появилась группа
+«Искатели Духа». Сейчас я собрал наши практики и исследования в
+едином формате и готов делиться этими знаниями с вами.</p>
+</div>
+<img src="./images/velmir__mainphoto.jpg" alt="Velmir" class=
+"velmir__space-photo" /></div>
+</section>
+<section class="courses" id="courseMain">
+<div class="courses__main">
+<h3 class="courses__main-title">Курсы</h3>
+<div class="courses__course courses__course-base">
+<div class="courses__course__top">
+<h4 class="courses__course__top-title">Курс «Базис»</h4>
+<!--                     <div class="courses__course__top-date">
+                        <p class="courses__course__top-date-text">Дата начала</p>
+                        <p class="courses__course__top-date-numbers">09.12.2020</p>
+                    </div> --></div>
+<p class="courses__course__middle-text">Курс поможет самостоятельно
+познакомиться с осознанными и контролируемыми сновидениями.
+Избавьтесь от страхов и сомнений в своей жизни, изучив себя через
+сновидения.</p>
+<p class=
+"courses__course__middle-text courses__course__middle-text-free">
+Первая неделя курса — бесплатно</p>
+<div class="courses__course__bottom courses__course__bottom-base">
+<div class="courses__course__bottom-buttons"><a href=
+"https://spirithunters.io/base-course" class=
+"courses__course__bottom-buttons-paybtn">Участвовать</a> <a href=
+"https://spirithunters.io/base-course" class=
+"courses__course__bottom-buttons-learnbtn">Узнать больше</a></div>
+<div class="courses__course__bottom-value">
+<!--                        <div class="courses__course__bottom-value-places">
+                            <div class="courses__course__bottom-value-places-number">7</div>
+                            <div class="courses__course__bottom-value-places-text">мест</div>
+                        </div> -->
+<p class="courses__course__bottom-value-price">990 ₽</p>
+</div>
+</div>
+</div>
+<div class="courses__course courses__course-group">
+<div class="courses__course__top">
+<h4 class=
+"courses__course__top-title courses__course__top-title-medium">Курс
+«Медиум»</h4>
+<div class="courses__course__top-date">
+<p class="courses__course__top-date-text">Дата начала</p>
+<p class=
+"courses__course__top-date-numbers courses__course__top-date-numbers-medium">
+01.03.2021</p>
+</div>
+</div>
+<p class="courses__course__middle-text">Занятия в группе до 10
+человек. Погрузитесь в мир осознанных сновидений. Откройте для себя
+новые границы понимания себя. Познайте новые грани восприятия.
+Разбор ошибок и ответы на все вопросы.</p>
+<p class=
+"courses__course__middle-text courses__course__middle-text-medium">
+Месяц групповых занятий с куратором + 100 страниц курса «Базис»</p>
+<div class="courses__course__bottom">
+<div class="courses__course__bottom-buttons"><a href=
+"https://spirithunters.io/medium-course" class=
+"courses__course__bottom-buttons-paybtn courses__course__bottom-buttons-paybtn-medium">
+Участвовать</a> <a href="https://spirithunters.io/medium-course"
+class=
+"courses__course__bottom-buttons-learnbtn courses__course__bottom-buttons-learnbtn-medium">
+Узнать больше</a></div>
+<div class="courses__course__bottom-value">
+<div class="courses__course__bottom-value-places">
+<div class="courses__course__bottom-value-places-number">6</div>
+<div class="courses__course__bottom-value-places-text">мест</div>
+</div>
+<p class="courses__course__bottom-value-price">1990 ₽</p>
+</div>
+</div>
+</div>
+<div class="courses__course courses__course-private">
+<div class="courses__course__top">
+<h4 class="courses__course__top-title courses__private-title">Курс
+«Профи-практик»</h4>
+<!--                     <div class="courses__course__top-date">
+                        <p class="courses__course__top-date-text">Дата начала</p>
+                        <p class="courses__course__top-date-numbers">09.12.2020</p>
+                    </div> --></div>
+<p class="courses__course__middle-text">Полное погружение в
+аутентичность мира осознанных сновидений. Постоянная поддержка
+куратора на протяжении всего курса, личные встречи онлайн каждую
+неделю.</p>
+<p class=
+"courses__course__middle-text courses__course__middle-text-private">
+8 часов онлайн-встреч с куратором</p>
+<div class=
+"courses__course__bottom courses__course__bottom-private">
+<div class="courses__course__bottom-buttons"><a href=
+"https://spirithunters.io/private-course" class=
+"courses__course__bottom-buttons-paybtn courses__private-pay">Участвовать</a>
+<a href="https://spirithunters.io/private-course" class=
+"courses__course__bottom-buttons-learnbtn courses__private-learn">Узнать
+больше</a></div>
+<div class="courses__course__bottom-value">
+<!--                         <div class="courses__course__bottom-value-places">
+                            <div class="courses__course__bottom-value-places-number">7</div>
+                            <div class="courses__course__bottom-value-places-text">мест</div>
+                        </div> -->
+<p class="courses__course__bottom-value-price">3990 ₽</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="articles" id="articlesMain">
+<div class="articles__main">
+<div class="articles__main-title">
+<p class="articles__main-title-text">Статьи</p>
+</div>
+<div class="articles__main-list"><a href=
+"https://spirithunters.io/shifting" class=
+"articles__main-list-article"><img src=
+"./images/shifting-img-top.png" alt="article img" class=
+"articles__main-list-article-img" />
+<h2 class="articles__main-list-article-title">Шифтинг: что это
+такое?</h2>
+<p class="articles__main-list-article-text">В чём суть новомодной
+практики и действенна ли она? Это все часть сновидения, или
+действительно путешествие в другую реальность? Как использовать и
+будет ли это вообще работать? Отвечаем на вопросы и разбираем
+тренд</p>
+</a> <a href="https://spirithunters.io/lucid-dreams" class=
+"articles__main-list-article"><img src=
+"./images/lucid-dreams-img-top.png" alt="article img" class=
+"articles__main-list-article-img" />
+<h2 class="articles__main-list-article-title">Lucid dreams /
+Люцидные (ясные) сны</h2>
+<p class="articles__main-list-article-text">В чем разница между
+осознанным сном и люцидным? Есть ли уровни осознанности у люцидных
+снов. Lucid dreams — просто сон или управляемый? Откуда разделение
+уровня сновидений и стоит ли вообще их разделять?</p>
+</a> <a href="https://spirithunters.io/about-dreams" class=
+"articles__main-list-article"><img src=
+"./images/stalking-img-top.png" alt="article img" class=
+"articles__main-list-article-img" />
+<h2 class="articles__main-list-article-title">Толкование снов</h2>
+<p class="articles__main-list-article-text">О чем нас предупреждают
+сновидения и как это использовать. Работает ли толкование снов и
+расшифровка образов. Можно ли доверять сонникам и советам из сети?
+Как разгадать свои образы и возможно это делать самостоятельно?</p>
+</a> <a href="https://spirithunters.io/myths-os" class=
+"articles__main-list-article"><img src="./images/myths-img-top.png"
+alt="article img" class="articles__main-list-article-img" />
+<h2 class="articles__main-list-article-title">Мифы про осознанные
+сновидения</h2>
+<p class="articles__main-list-article-text">Мифы и страхи
+осознанных сновидений. Возможно застрять во сне и остаться там? Сны
+видит каждый или нет? Умерев во сне, умрешь в реальности?
+Существуют вообще опасности в сновидениях и может ли каждый
+научиться ими управлять?</p>
+</a></div>
+<a href="https://spirithunters.io/all-articles" class=
+"articles__main-btn">Больше статей</a></div>
+</section>
+<!--     <section class="video" id="videoMain">
+        <div class="video__main">
+            <div class="video__main-title">
+                <p class="video__main-title-text">Видео</p>
+            </div>
+            <div class="video__main-block">
+                <div class="video__main-block-player">
+                    <iframe class="video__main-block-player" width="860" height="484" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video__main-block-list">
+                    <ul class="video__main-block-list-list6b">
+                        <li><a href="#" class="video__main-block-list-text">Элемент списка</a></li>
+                        <li><a href="#" class="video__main-block-list-text">Элемент списка</a></li>
+                        <li><a href="#" class="video__main-block-list-text">Элемент списка</a></li>
+                        <li><a href="#" class="video__main-block-list-text">Элемент списка</a></li>
+                        <li><a href="#" class="video__main-block-list-text">Элемент списка</a></li>
+                        <li><a href="#" class="video__main-block-list-text">Элемент списка</a></li>
+                        <li><a href="#" class="video__main-block-list-text">Элемент списка</a></li>
+                        <li><a href="#" class="video__main-block-list-text">Элемент списка</a></li>
+                        <li><a href="#" class="video__main-block-list-text">Элемент списка</a></li>
+                        <li><a href="#" class="video__main-block-list-text">...</a></li>  
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> -->
+<section class="tothetop">
+<div class="tothetop__btn"><a href="#courseMain" class=
+"tothetop__btn-link js-scroll">Вернуться к курсам ↑</a></div>
+</section>
+<section class="footer" id="contactsMain">
+<div class="footer__main">
+<div class="footer__main-nav"><a href="#headerMain" class=
+"js-scroll"><img src="./images/footer__logo.png" alt=
+"Искатели Духа" class="footer__main-nav-logo js-scroll" /></a>
+<div class="footer__main-nav-links"><a href="#headerMain" class=
+"footer__main-nav-link js-scroll">Главная</a> <a href="#aboutMain"
+class="footer__main-nav-link js-scroll">О нас</a> <a href=
+"#courseMain" class="footer__main-nav-link js-scroll">Курсы</a>
+<a href="#articlesMain" class=
+"footer__main-nav-link js-scroll">Статьи</a> <a href=
+"https://spirithunters.io/reviews" class=
+"footer__main-nav-link js-scroll">Отзывы</a> <a href=
+"#contactsMain" class=
+"footer__main-nav-link js-scroll">Контакты</a></div>
+</div>
+<p class="footer__main-email">velmir@spirithunters.io</p>
+<div class="footer__main-social"><a href=
+"https://t.me/spirithunters" target="_blank"><img src=
+"./images/header__logo-tg.png" alt="Telegram" class=
+"footer__main-social-icon" /></a> <a href=
+"https://www.facebook.com/profile.php?id=100057101870700" target=
+"_blank"><img src="./images/header__logo-fb.png" alt="Facebook"
+class="footer__main-social-icon" /></a> <a href=
+"https://vk.com/spirithunters" target="_blank"><img src=
+"./images/header__logo-vk.png" alt="Vkontakte" class=
+"footer__main-social-icon" /></a> <a href=
+"https://zen.yandex.ru/id/5a8591a1fd96b16db42f830e" target=
+"_blank"><img src="./images/header__logo-dz.png" alt="Yandex.Dzen"
+class="footer__main-social-icon" /></a> <a href=
+"https://www.instagram.com/spirithunters_xos/" target=
+"_blank"><img src="./images/header__logo-yt.png" alt="instagram"
+class=
+"footer__main-social-icon footer__main-social-icon-yt" /></a></div>
+<div class="footer__main-info"><a href=
+"https://spirithunters.io/oferta" target="_blank" class=
+"footer__main-info-oferta">Договор на оказание услуг</a>
+<p class="footer__main-info-copyright">© 2020-2021, Искатели Духа.
+Все права защищены</p>
+</div>
+</div>
+</section>
+<script src="/js/scroll.js">
+</script> 
+<script src="/js/close-menu.js">
+</script> 
+<script src="/js/close-scroll.js">
+</script>
+</body>
+</html>
